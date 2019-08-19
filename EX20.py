@@ -10,6 +10,9 @@ def rewind(f):
 def print_a_line(line_count,f):
     print(line_count,f.readline())
 
+def print_line(txt_line):
+    print(txt_line.readline())
+
 current_file = open(input_file)
 
 print("Frist let's print the whole file: \n")
@@ -30,3 +33,5 @@ print_a_line(current_line,current_file)
 
 current_line = current_line + 1
 print_a_line(current_line,current_file)
+
+print_line(current_file)
