@@ -1,4 +1,4 @@
-# -*- coding: gbk -*- 
+# -*- coding: utf-8 -*- 
 from sys import argv
 from os.path import exists
 
@@ -17,7 +17,7 @@ print(f"The input file is {len(indata)} bytes long")
 
 print(f"Does the output file exist ? {exists(to_file)}")
 print(f"Ready, hit RETURN to continue, CTRL-C to about.")
-#print(f"{indata}")
+print(f"{indata}")
 input()
 
 with open(to_file, 'w+') as out_file:
