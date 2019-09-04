@@ -8,10 +8,10 @@ def rewind(f):
     f.seek(0)
 
 def print_a_line(line_count,f):
-    print(line_count,f.readline())
+    print(line_count,f.readline(),end="")
 
 def print_line(txt_line):
-    print(txt_line.readline())
+    print(txt_line.readline(),end="")
 
 current_file = open(input_file)
 
