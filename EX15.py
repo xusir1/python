@@ -13,3 +13,4 @@ file_again = input(">")             #user designated the filename
 txt_again = open(file_again)    #obtain new file content to txt_again
 
 print(txt_again.read())     #print txt_again
+print(script)

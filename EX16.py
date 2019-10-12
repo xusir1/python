@@ -9,8 +9,8 @@ print("If you do want that,hit RETURN.")
 input("?")
 
 print("Opening the file....")
-target = open(filename,'w')
-
+#target = open(filename,'w')
+target = open(filename,'a')  # 追加
 print("Truncating the file. Goodbye!")
 #target.truncate()
 
@@ -22,8 +22,8 @@ line3 = input("line 3 : ")
 
 print("I'm going to write these to file.")
 
-#target.write(f"{line1}\n {line2}\n {line3}\n")
-target.write("{line1}\n {line2}\n {line3}\n".format(line1=line1,line2=line2,line3=line3))
+target.write(f"{line1}\n {line2}\n {line3}\n")
+#target.write("{line1}\n {line2}\n {line3}\n".format(line1=line1,line2=line2,line3=line3))
 #target.write("\n")
 #target.write(line2)
 #target.write("\n")
@@ -41,4 +41,4 @@ with open(file_name) as f:
 
 # new_file = open(input("filename:"))
 # print(new_file.read())
-new_file.close()
+# new_file.close()
