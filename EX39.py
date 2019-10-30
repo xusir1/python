@@ -60,4 +60,4 @@ print(state)
 
 # get a city wuth a default value
 city = cities.get('TX', 'Does Not Exist')
-print(f"The city for the state 'TX' is {city}")
+print(f"The city for the state 'TX' is {city}") 

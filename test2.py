@@ -1,9 +1,10 @@
-import urllib
-import urllib2
+class Person:
+    def __init__(self, name, lang, website):
+        self.name = name
+        self.lang = lang
+        self.website = website
 
-values = {"unsername":"xulei","password":"1234"}
-data = urllib.urlenconde
-url = "https://wiki.synyi.com"
-request = urllib2.Request(url,data)
-response = urllib2.urlopen(request)
-print response.read()
+info = Person("hiekay","python","hiekay.github.io")     #实例化Person
+print(info.name)
+print(info.lang)
+print(info.website)

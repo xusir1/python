@@ -1,15 +1,13 @@
-# -*- coding: utf-8 -*-
+class Person(object):
+    def __init__(self, luck):
+        self.luck = luck
+        #self.name = name
+        #self.website = website
 #
-import requests
-import sys
+    def monkey(self):
+        for myself in self.luck:
+            print(myself)
 
-url = "  "
-r = requests.get(url, timeout=5)
-code = r.status_code
-
-if code == 200:
-    print("页面访问正常")
-    #sys.exit()
-else:
-    print("页面无法访问")
-    #sys.exit(2)
+xulei = Person(["Happy birthday","I love you","I hate you"])
+#print(xulei.luck)
+xulei.monkey()
