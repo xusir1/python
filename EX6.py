@@ -10,7 +10,7 @@ print(f"I also said: {y}")
 
 hilarious = "True"
 joke_evaluation = "Isn't that joke so funny?! {}"
-print(joke_evaluation.format('False'))
+print(joke_evaluation.format(hilarious))
 
 w = "That is the left side of ..."
 e = "a string with a right side"

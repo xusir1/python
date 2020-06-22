@@ -31,5 +31,7 @@ print("Alright, all done .")
 
 #out_file.close()
 #in_file.close()
-out_file = open(to_file, 'r+')
-print(out_file.read())
+#xu = open(to_file, 'r+')
+#print(xu.read())
+with open(to_file) as test:
+    print(test.read())

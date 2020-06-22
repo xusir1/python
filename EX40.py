@@ -20,6 +20,7 @@ bulls_on_parade.sing_me_a_song()
 
 class Person:
     def __init__(self, luck, name, website):
+        self.self = self
         self.luck = luck
         self.name = name
         self.website = website
@@ -29,6 +30,7 @@ class Person:
 #            print(myself)
 
 xulei = Person("Happy birthday","I love you","I hate you")
+print(xulei.self)
 print(xulei.luck)
 print(xulei.name)
 print(xulei.website)
