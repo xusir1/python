@@ -34,7 +34,7 @@ print("Michigan has: ", cities[states['Michigan']])
 print("Florida has: ", cities[states['Florida']])
 
 # print every state abbreviation
-print('-' * 10)
+print('-' * 20)
 for state, abbrev in list(states.items()):
     print(f"{state} is abbreviated {abbrev}")
 
@@ -51,7 +51,7 @@ for state, abbrev in list(states.items()):
 
 print("-" * 10)
 # safely get a abbreviation by state that might not be there
-state = states.get("Texas")
+state = states.get("Oregon")
 print(state)
 if not state:
     print("Sorry, no Texas.")

@@ -20,6 +20,6 @@ print(random)
 print(stuff[1])
 print(stuff[-1]) # whoa! fancy
 print(stuff.pop())
-print(''.join(stuff)) # what? cool
+print(' '.join(stuff)) # what? cool
 print('#'.join(stuff[3:5])) #super stellar 注意 这里是取值索引为3到4 不包括5 等同于rang(3,5)
     

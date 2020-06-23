@@ -1,10 +1,10 @@
 class Song(object):
 
-    def __init__(self, lyrics):
-        self.lyrics = lyrics
+    def __init__(self, xulei):
+        self.xulei = xulei
 
     def sing_me_a_song(self):
-        for line in self.lyrics:
+        for line in self.xulei:
             print(line)
 
 happy_bday = Song([ "Happy birthday to you",
@@ -30,7 +30,7 @@ class Person:
 #            print(myself)
 
 xulei = Person("Happy birthday","I love you","I hate you")
-print(xulei.self)
+#print(xulei.self)
 print(xulei.luck)
 print(xulei.name)
 print(xulei.website)
