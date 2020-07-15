@@ -1,6 +1,6 @@
 class Song(object):
 
-    def __init__(self, xulei):
+    def __init__(self,xulei):
         self.xulei = xulei
 
     def sing_me_a_song(self):
