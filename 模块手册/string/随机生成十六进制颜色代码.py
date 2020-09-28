@@ -8,3 +8,4 @@ def randomcolor():
     return "#"+color
 for i in range(10):
     print(randomcolor())
+#
